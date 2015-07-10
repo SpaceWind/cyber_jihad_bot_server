@@ -221,7 +221,7 @@ class PartyApiController < ApplicationController
 				party = Party.find_by name:params[:party], pass: Digest::SHA2.hexdigest(params[:pass])
 				if (party)
 					pm = PartyMember.find_by party:params[:party], member:user.login
-					if (party.owner = user.login)
+					if (party.owner == user.login)
 						is_owner = true
 					end
 					if (pm == nil)
