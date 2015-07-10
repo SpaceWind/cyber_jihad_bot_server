@@ -68,7 +68,7 @@ class InfoapiController < ApplicationController
 		render json: result
 	else
 		inv = Invite.find_by data:params[:invite]
-		if (inv)
+		if (inv || User.count == 0)
 			userCount = User.count
 			user = User.new
 			user.login = params[:login]
@@ -137,9 +137,5 @@ class InfoapiController < ApplicationController
   end
   
 end
-
-
-
-
 
 
