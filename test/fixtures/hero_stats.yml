@@ -1,0 +1,41 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  heroid: MyString
+  str: 1
+  dex: 1
+  mag: 1
+  tra: 1
+  vel: 1
+  max_hp: 1
+  max_mana: 1
+  current_hp: 1
+  current_mana: 1
+  start_str: 1
+  start_dex: 1
+  start_mag: 1
+  start_int: 1
+  start_vel: 1
+  start_hp: 1
+  start_mana: 1
+  desc: MyText
+
+two:
+  heroid: MyString
+  str: 1
+  dex: 1
+  mag: 1
+  tra: 1
+  vel: 1
+  max_hp: 1
+  max_mana: 1
+  current_hp: 1
+  current_mana: 1
+  start_str: 1
+  start_dex: 1
+  start_mag: 1
+  start_int: 1
+  start_vel: 1
+  start_hp: 1
+  start_mana: 1
+  desc: MyText

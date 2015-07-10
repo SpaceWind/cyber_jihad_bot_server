@@ -1,0 +1,29 @@
+<h1>Listing user_x_heros</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Login</th>
+      <th>Heroid</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @user_x_heros.each do |user_x_hero| %>
+      <tr>
+        <td><%= user_x_hero.login %></td>
+        <td><%= user_x_hero.heroid %></td>
+        <td><%= link_to 'Show', user_x_hero %></td>
+        <td><%= link_to 'Edit', edit_user_x_hero_path(user_x_hero) %></td>
+        <td><%= link_to 'Destroy', user_x_hero, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New User x hero', new_user_x_hero_path %>

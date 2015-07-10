@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  type: 
+  name: MyString
+  string: MyString
+  hostile: MyString
+  text: MyString
+  friendly: MyString
+  text: MyString
+
+two:
+  type: 
+  name: MyString
+  string: MyString
+  hostile: MyString
+  text: MyString
+  friendly: MyString
+  text: MyString

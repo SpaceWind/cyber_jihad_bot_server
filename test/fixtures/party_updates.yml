@@ -1,0 +1,39 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  party: MyString
+  rec: MyString
+  date: 2015-07-03 04:08:48
+  update_type: MyString
+  nick: MyString
+  message_text: MyText
+  user_status: MyString
+  server: MyString
+  channel: MyString
+  cd: 
+  method: MyString
+  before_attack: 
+  word_count_min: 
+  word_count_max: 
+  list_name: MyString
+  max_emotes: 
+  caps: MyString
+
+two:
+  party: MyString
+  rec: MyString
+  date: 2015-07-03 04:08:48
+  update_type: MyString
+  nick: MyString
+  message_text: MyText
+  user_status: MyString
+  server: MyString
+  channel: MyString
+  cd: 
+  method: MyString
+  before_attack: 
+  word_count_min: 
+  word_count_max: 
+  list_name: MyString
+  max_emotes: 
+  caps: MyString

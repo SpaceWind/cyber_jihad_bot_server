@@ -1,0 +1,2 @@
+class LibsApiController < ApplicationController	
+end

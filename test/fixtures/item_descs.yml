@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  item_id: MyString
+  item_name: MyString
+  look: MyText
+  owner_hero_id: MyString
+  slot: MyString
+  value: 
+  worth: 
+  weight: 
+  history: MyText
+
+two:
+  item_id: MyString
+  item_name: MyString
+  look: MyText
+  owner_hero_id: MyString
+  slot: MyString
+  value: 
+  worth: 
+  weight: 
+  history: MyText

@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  spell_class: MyString
+  spell_name: MyString
+  creature_type: MyString
+  mod: MyString
+  prefix_name: MyString
+  suffix_name: MyString
+
+two:
+  spell_class: MyString
+  spell_name: MyString
+  creature_type: MyString
+  mod: MyString
+  prefix_name: MyString
+  suffix_name: MyString

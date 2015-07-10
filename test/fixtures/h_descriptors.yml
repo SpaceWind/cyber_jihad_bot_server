@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  hid: MyString
+  hero_name: MyString
+  mood: 1
+  map: MyText
+  pack_max_size: 1
+  experience: 1
+  exp_to_next_lvl: 1
+  x_pos: 1
+  y_pos: 1
+  hclass: MyString
+  hrace: MyString
+
+two:
+  hid: MyString
+  hero_name: MyString
+  mood: 1
+  map: MyText
+  pack_max_size: 1
+  experience: 1
+  exp_to_next_lvl: 1
+  x_pos: 1
+  y_pos: 1
+  hclass: MyString
+  hrace: MyString

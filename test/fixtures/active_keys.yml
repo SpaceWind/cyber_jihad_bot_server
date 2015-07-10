@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  apikey: 
+  login: 
+  last_updated: 
+  heroid: 
+  last_controlled: 
+  rolled_heroid: MyString
+
+two:
+  apikey: 
+  login: 
+  last_updated: 
+  heroid: 
+  last_controlled: 
+  rolled_heroid: MyString

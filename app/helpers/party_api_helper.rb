@@ -1,0 +1,2 @@
+module PartyApiHelper
+end

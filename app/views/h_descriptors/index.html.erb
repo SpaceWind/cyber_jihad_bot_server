@@ -1,0 +1,47 @@
+<h1>Listing h_descriptors</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Hid</th>
+      <th>Hero name</th>
+      <th>Mood</th>
+      <th>Map</th>
+      <th>Pack max size</th>
+      <th>Experience</th>
+      <th>Exp to next lvl</th>
+      <th>X pos</th>
+      <th>Y pos</th>
+      <th>Hclass</th>
+      <th>Hrace</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @h_descriptors.each do |h_descriptor| %>
+      <tr>
+        <td><%= h_descriptor.hid %></td>
+        <td><%= h_descriptor.hero_name %></td>
+        <td><%= h_descriptor.mood %></td>
+        <td><%= h_descriptor.map %></td>
+        <td><%= h_descriptor.pack_max_size %></td>
+        <td><%= h_descriptor.experience %></td>
+        <td><%= h_descriptor.exp_to_next_lvl %></td>
+        <td><%= h_descriptor.x_pos %></td>
+        <td><%= h_descriptor.y_pos %></td>
+        <td><%= h_descriptor.hclass %></td>
+        <td><%= h_descriptor.hrace %></td>
+        <td><%= link_to 'Show', h_descriptor %></td>
+        <td><%= link_to 'Edit', edit_h_descriptor_path(h_descriptor) %></td>
+        <td><%= link_to 'Destroy', h_descriptor, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New H descriptor', new_h_descriptor_path %>

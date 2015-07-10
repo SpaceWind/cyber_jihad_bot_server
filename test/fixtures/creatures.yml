@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  creature_name: MyString
+  mod: MyString
+  creature_type: MyString
+  integer: 
+  integer: 
+  integer: 
+  integer: 
+  integer: 
+  integer: 
+  integer: 
+  integer: 
+
+two:
+  creature_name: MyString
+  mod: MyString
+  creature_type: MyString
+  integer: 
+  integer: 
+  integer: 
+  integer: 
+  integer: 
+  integer: 
+  integer: 
+  integer: 

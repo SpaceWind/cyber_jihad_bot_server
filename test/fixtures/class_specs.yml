@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  class_name: MyString
+  string: MyString
+  str: 1
+  dex: 1
+  mag: 1
+  tra: MyString
+  integer: MyString
+  vel: 1
+  hp: 1
+  mana: MyString
+  integer: MyString
+
+two:
+  class_name: MyString
+  string: MyString
+  str: 1
+  dex: 1
+  mag: 1
+  tra: MyString
+  integer: MyString
+  vel: 1
+  hp: 1
+  mana: MyString
+  integer: MyString

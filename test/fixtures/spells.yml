@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  spell_name: MyString
+  spell_class: MyString
+  spell_desc: MyText
+
+two:
+  spell_name: MyString
+  spell_class: MyString
+  spell_desc: MyText

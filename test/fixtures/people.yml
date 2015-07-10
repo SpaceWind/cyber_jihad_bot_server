@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  person_name: MyString
+  lib_imp: MyString
+  lib_rop: MyString
+  lib_dap: MyString
+  lib_vip: MyString
+  lib_tvp: MyString
+  lib_prp: MyString
+  description: MyText
+
+two:
+  person_name: MyString
+  lib_imp: MyString
+  lib_rop: MyString
+  lib_dap: MyString
+  lib_vip: MyString
+  lib_tvp: MyString
+  lib_prp: MyString
+  description: MyText

@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  party: MyString
+  server: MyString
+  channel: MyString
+  cd: 
+  method: MyString
+  before_attack: 
+  word_count_min: 
+  word_count_max: 
+  list_name: MyString
+  max_emotes: 
+  caps: MyString
+
+two:
+  party: MyString
+  server: MyString
+  channel: MyString
+  cd: 
+  method: MyString
+  before_attack: 
+  word_count_min: 
+  word_count_max: 
+  list_name: MyString
+  max_emotes: 
+  caps: MyString

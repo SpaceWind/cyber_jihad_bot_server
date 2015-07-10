@@ -1,0 +1,38 @@
+<h1>Listing active_keys</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Apikey</th>
+      <th>Login</th>
+      <th>Last updated</th>
+      <th>Heroid</th>
+      <th>Last controlled</th>
+      <th>Rolled heroid</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @active_keys.each do |active_key| %>
+      <tr>
+        <td><%= active_key.apikey %></td>
+        <td><%= active_key.login %></td>
+        <td><%= active_key.last_updated %></td>
+        <td><%= active_key.heroid %></td>
+        <td><%= active_key.last_controlled %></td>
+        <td><%= active_key.rolled_heroid %></td>
+        <td><%= link_to 'Show', active_key %></td>
+        <td><%= link_to 'Edit', edit_active_key_path(active_key) %></td>
+        <td><%= link_to 'Destroy', active_key, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+<img src="/tabota.jpg"/>
+
+<br>
+
+<%= link_to 'New Active key', new_active_key_path %>
