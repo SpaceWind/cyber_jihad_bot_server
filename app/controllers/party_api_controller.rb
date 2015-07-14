@@ -508,7 +508,6 @@ class PartyApiController < ApplicationController
 								pu.save
 							end
 						}
-						pm.destroy
 					end
 				else
 					success = false
@@ -552,7 +551,6 @@ class PartyApiController < ApplicationController
 								pu.save
 							end
 						}
-						pm.destroy
 					end
 				else
 					success = false
